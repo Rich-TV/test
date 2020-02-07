@@ -107,9 +107,6 @@ class TaschenrechnerPanel extends JPanel {
 	
 				if (e.getSource() instanceof JButton) {
 
-					// JButton button = (JButton)e.getSource();
-					// System.out.println(button.getText());
-
 					if (e.getKeyCode() == KeyEvent.VK_ENTER) {
 						buttons.get("=").doClick();
 					} else {
@@ -123,27 +120,6 @@ class TaschenrechnerPanel extends JPanel {
 						}
 					}
 
-					// System.out.println(str);
-					// if (str.equals("*")) {
-					//
-					// } else if (str.equals("=")) {
-					// } else if (str.equals("+")) {
-					//
-					// System.err.println("++++");
-					// bPlus.doClick();
-					// return;
-					//
-					// } else if (str.equals("/")) {
-					// } else if (str.equals("-")) {
-					// } else {
-					// try {
-					// Integer valueOf = Integer.valueOf(str);
-					//
-					// } catch (Exception e1) {
-					// // TODO Auto-generated catch block
-					// e1.printStackTrace();
-					// }
-					// }
 				}
 
 			}
