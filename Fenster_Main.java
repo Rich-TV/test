@@ -144,7 +144,6 @@ class TaschenrechnerPanel extends JPanel {
 					// e1.printStackTrace();
 					// }
 					// }
-					//Hier steht ein dummes Kommentar
 				}
 
 			}
