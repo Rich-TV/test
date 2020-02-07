@@ -150,7 +150,7 @@ class TaschenrechnerPanel extends JPanel {
 
 			@Override
 			public void keyReleased(KeyEvent e) {
-				// TODO Auto-generated method stub
+				
 
 			}
 
